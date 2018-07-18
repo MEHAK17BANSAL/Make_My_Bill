@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Share Invoice"
+        android:id="@+id/id_share"
+android:orderInCategory="100"
+        app:showAsAction="never"
+        ></item>
+
+    <item
+        android:title="Clear"
+        android:id="@+id/id_clear"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        ></item>
+    <item
+        android:title="Log Out"
+        android:id="@+id/id_logout"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        ></item>
+
+    <item
+        android:title="Calculator"
+        android:id="@+id/id_cal"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        ></item>
+    <item
+        android:title="Show Pdf's"
+        android:id="@+id/id_pdf"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        ></item>
+    <item
+        android:title="Contact Us"
+        android:id="@+id/id_contact"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        ></item>
+    <item
+        android:title="Add Products"
+        android:id="@+id/id_pro"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        ></item>
+
+</menu>

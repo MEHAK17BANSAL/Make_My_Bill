@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Make_My_Bill</string>
+    <string name="log_out">Log out</string>
+    <string name="facebook_app_id">855969511254329</string>
+    <string name="facebook_application_id">855969511254329</string>
+    <string name="fb_login_protocol_scheme">fb855969511254329</string>
+    <string name="hint_subject">mehak</string>
+    <string name="hint_body">bansal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="a1">"The Android Based make my bill application is developed to provide the information to the clients regarding the product and provide an invoice to the clients.This information should be provided to customers in an effective way."</string>
+    <string name="a2">In a real world scenario such as bills information is provided in the form of slips,hand written manuals are given to the clients.So to provide all this information at ease,we are developing this application wherein clients can access this information using their Android enabled mobiles.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="phone_no">phone no</string>
+    <string name="twitter">"@mehakbansal"</string>
+    <string name="descripition">Descripition</string>
+    <string name="create_invoice">CREATE INVOICE</string>
+    <string name="product_details">Product Details</string>
+    <string name="address">Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="company_details">Company Details</string>
+    <string name="gst">GST</string>
+    <string name="simple_without_tax">Simple (without tax)</string>
+    <string name="delivery_date">Delivery date</string>
+    <string name="order_date">Order date</string>
+    <string name="invoice_no">Invoice no</string>
+    <string name="enter_details">Enter Details</string>
+    <string name="add_another_product">ADD ANOTHER PRODUCT</string>
+    <string name="recipient_details">Recipient details</string>
+    <string name="name">Name</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:title="Log Out"
+        android:id="@+id/id_logout"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        ></item>
+
+    <item
+        android:title="Search Products"
+        android:id="@+id/id_search"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        ></item>
+    <item
+        android:title="Calculator"
+        android:id="@+id/id_cal"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        ></item>
+    <item
+        android:title="Contact Us"
+        android:id="@+id/id_contact"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        ></item>
+    <item
+        android:title="Make Invoice"
+        android:id="@+id/id_in"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        ></item>
+
+</menu>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:background="@color/colorPrimary7"
+    tools:context=".ui.inventory">
+    <include
+        layout="@layout/app_bar"
+        android:id="@+id/app_bar"></include>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        app:cardBackgroundColor="@color/colorPrimary6"
+        android:layout_marginRight="10dp"
+      android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+app:cardBackgroundColor="@color/colorPrimary7"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+        <EditText
+            android:id="@+id/editTexts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Serail No"
+            android:layout_marginLeft="@dimen/marginright"
+            android:layout_marginRight="@dimen/marginright"
+            android:layout_marginTop="50dp"
+            android:inputType="number"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/editTextn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Product Name"
+            android:layout_marginRight="@dimen/marginbleft"
+            android:layout_marginLeft="@dimen/marginbleft"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:text="" />
+        <EditText
+            android:id="@+id/editTextp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Product Price"
+            android:layout_marginRight="@dimen/marginbleft"
+            android:layout_marginLeft="@dimen/marginbleft"
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            android:text="" />
+        <EditText
+            android:id="@+id/editTextd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Date"
+            android:layout_marginRight="@dimen/marginbleft"
+            android:layout_marginLeft="@dimen/marginbleft"
+            android:layout_marginTop="10dp"
+            android:inputType="date"
+            android:text="" />
+
+     <android.support.v7.widget.CardView
+         android:layout_width="match_parent"
+         android:layout_marginLeft="10dp"
+android:layout_marginRight="10dp"
+         android:layout_marginTop="30dp"
+         app:cardCornerRadius="8dp"
+         app:cardBackgroundColor="@color/colorPrimary2"
+         android:layout_height="70dp">
+
+         <Button
+             android:id="@+id/buttona"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="@dimen/marginbleft"
+             android:textColor="@color/colorAccent"
+            android:onClick="productadd"
+             android:background="@color/colorPrimary1"
+             android:layout_marginLeft="20dp"
+             android:text="Add" />
+         <Button
+             android:id="@+id/buttone"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="@dimen/marginbleft"
+             android:textColor="@color/colorAccent"
+android:onClick="CreateSheet"
+             android:background="@color/colorPrimary1"
+             android:layout_marginLeft="117dp"
+             android:text="Make Csv" />
+         <Button
+             android:id="@+id/buttonc"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="@dimen/marginbleft"
+             android:textColor="@color/colorAccent"
+android:onClick="clear"
+             android:background="@color/colorPrimary1"
+             android:layout_marginLeft="215dp"
+             android:text="Clear" />
+
+     </android.support.v7.widget.CardView>
+                </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+     </android.support.v7.widget.CardView>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "892378501612",
+    "firebase_url": "https://make-my-bill.firebaseio.com",
+    "project_id": "make-my-bill",
+    "storage_bucket": "make-my-bill.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892378501612:android:47e44bb5d840854d",
+        "android_client_info": {
+          "package_name": "com.mehak.Make_My_Bill"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892378501612-tr3ouge67thi6hv8p4vqmh73rdj58ure.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mehak.Make_My_Bill",
+            "certificate_hash": "bed76cb1bfd47f9ea7a7bb0c2150d9745fa28926"
+          }
+        },
+        {
+          "client_id": "892378501612-bfltb5qkvsg6ffbhu1ti7038q6uffrgt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-2VTlVdYNBfh-PWnhdbsWOF-IjuGlKkk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892378501612-bfltb5qkvsg6ffbhu1ti7038q6uffrgt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
